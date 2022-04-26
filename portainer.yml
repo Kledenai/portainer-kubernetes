@@ -25,7 +25,7 @@ spec:
       serviceAccountName: portainer
       containers:
         - name: portainer
-          image: "portainer/portainer-ce:latest"
+          image: "portainer/portainer-ce:2.11.1"
           imagePullPolicy: Always
           args:
             - "--tunnel-port=30776"
